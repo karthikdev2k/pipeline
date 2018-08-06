@@ -3,7 +3,7 @@ node
   stage('Build')
   {
     echo 'Build stage'
-    echo 'Env $env.PATH'
+    echo "Path Env variable is set to: '$env.PATH'"
   }
   stage('Test')
   {
