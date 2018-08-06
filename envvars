@@ -1,0 +1,8 @@
+apt-get update
+apt-get install default-jdk
+cd /usr/lib/jvm
+#mv default-java default
+JAVA_HOME=/usr/lib/jvm/default-java
+export JAVA_HOME
+PATH=$PATH:$JAVA_HOME/bin
+export PATH
