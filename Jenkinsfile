@@ -1,6 +1,6 @@
 node
 {
-  git([url: 'git://github.com/karthikdev2k/CustTestMgmt.git', branch: 'master'])
+  git([url: 'git://github.com/karthikdev2k/CustMgmtTest.git', branch: 'master'])
   stage('Build')
   {
     echo 'Build stage'
