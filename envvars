@@ -1,5 +1,5 @@
 apt-get update
-apt-get install default-jdk
+apt-get install -y default-jdk
 cd /usr/lib/jvm
 #mv default-java default
 JAVA_HOME=/usr/lib/jvm/default-java
